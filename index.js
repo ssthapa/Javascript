@@ -1,4 +1,7 @@
-let count = 50
-count+= 1
+let count = 0
 
-console.log(count)
+function increment(){
+    count+= 1
+    console.log(count)
+    document.getElementById("count-el").innerText = count
+}
